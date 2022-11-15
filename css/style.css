@@ -1,0 +1,45 @@
+body {
+    min-height: 100vh;
+    background-color: gray;
+}
+
+.box {
+    min-height: 100vh;
+    min-width: 100vh;
+    margin-bottom: 100px;
+}
+
+.consolle {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.active {
+    background-color: white;
+}
+
+.cell {
+    width: 10px;
+    aspect-ratio: 1/1;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.cell.active {
+    border: 1px solid black;
+}
+.cell.active-red {
+    background-color: red;
+}
+
+.cell.active-blu {
+    background-color: blue;
+}
+
+.bg-red {
+    background-color: red;
+}
